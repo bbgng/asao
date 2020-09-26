@@ -86,8 +86,8 @@ header .header-inner {
 }
 header .header-sns img {
   height: 30px;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
   /* margin-right: 15px; */
   opacity: 1.0;
   /* padding-top: 20px;
@@ -97,10 +97,21 @@ header .header-sns img {
   z-index: 1;
 }
 header .btn-menu {
-  background-color: white;
-  height: 130px;
-  width: 130px;
   float: right;
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+  transition: .4s;
+  font-size: 1.6rem;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 #key-visual {
   background-color: #000;
